@@ -1,8 +1,7 @@
-### Hi there 👋
-
 ```javascript
-const coa262 = {
-  name: "Coanertinus"
+const welcoming = {
+  name: "Hi there",
+  emoji: "👋"
 };
 ```
 
