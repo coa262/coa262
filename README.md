@@ -16,7 +16,7 @@ console.log(
 // npm install chalk
 ```
 
-now from the language of pythons :octocat:
+now from the language of pythons :snake:
 
 ```python
 # coa262.py
