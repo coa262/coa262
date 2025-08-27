@@ -1,8 +1,40 @@
 ```javascript
+// coa262.mjs
+
+import { yellow } from 'chalk'
+
 const welcoming = {
   name: "Hi there",
   emoji: "👋"
-};
+}
+
+console.log(
+  yellow(welcoming.name),
+  welcoming.emoji
+)
+
+// npm install chalk
 ```
 
-:shipit:
+now from the language of pythons :octocat:
+
+```python
+# coa262.py
+
+from rich.console import Console
+console = Console()
+
+welcoming = {
+  "name": "Hi there",
+  "emoji": "👋"
+}
+
+console.print(
+  f"{welcoming['name']} {welcoming['emoji']}",
+  style="yellow"
+)
+
+# pip install rich
+```
+
+I thought it would be rich if I wrote this :shipit:
